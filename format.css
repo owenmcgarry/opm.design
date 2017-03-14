@@ -9,7 +9,9 @@ margin: 0px;
 }
 
 .links{
-margin-top: 10px;
+margin-top: 5px;
+	font-size: 12pt;
+	text-align: center;
 }
 
 .muchtext{
@@ -20,7 +22,7 @@ margin-bottom: 40px;
 
 .myname{
 font-weight: bold;
-	font-size: 14pt;
+	font-size: 16pt;
 margin-bottom: 20px;
 }
 
@@ -43,14 +45,13 @@ margin-top: 20px;
 	
 #header{
 	width: 800px;
-	height: 50px;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
-	text-align: Left;
+	margin-top: 15px;
+	text-align: center;
 	font-size: 16pt;
-	}
-	
+	}	
 	
 #content{
  min-height: 800px;
@@ -68,6 +69,11 @@ margin-top: 20px;
 	margin-left: 50px;
 	text-align: Left;
 }
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 	
 /*#footer{
 	width: 100%;
